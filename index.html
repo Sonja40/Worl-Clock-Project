@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.js"></script>
     <title>Wourld Clock Project 🕗</title>
   </head>
   <body>
@@ -18,28 +20,28 @@
         <option value="">New York</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="paris">
         <div>
           <h2>Paris 🏰</h2>
-          <div class="date">November 8th 2023</div>
+          <div class="date" id="parisDate">November 8th 2023</div>
         </div>
-        <div class="time">17:56:32 <small>PM</small></div>
+        <div class="time" id="dateElement">17:56:32 <small>PM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="johannesburg">
         <div>
           <h2>Johannesburg 🐧</h2>
           <div class="date">November 8th 2023</div>
         </div>
         <div class="time">17:56:32 <small>PM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="hong-kong">
         <div>
           <h2>Hong-Kong 🀄</h2>
           <div class="date">November 8th 2023</div>
         </div>
         <div class="time">17:56:32 <small>PM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="new-york">
         <div>
           <h2>New York 🗽</h2>
           <div class="date">November 8th 2023</div>
